@@ -4,16 +4,18 @@
 main()
 {
     print("================================");
-    print("       BRASIL ROLEPLAY");
+    print("           SHARK RP");
     print("       Servidor iniciado");
     print("================================");
 }
 
 public OnGameModeInit()
 {
-    SetGameModeText("Brasil Roleplay");
+    SetGameModeText("SHARK ROLEPLAY");
+
     ShowPlayerMarkers(PLAYER_MARKERS_MODE_GLOBAL);
     ShowNameTags(true);
+
     SetWorldTime(12);
     SetWeather(2);
 
@@ -24,7 +26,7 @@ public OnGameModeInit()
         0, 0, 0, 0, 0, 0
     );
 
-    print("[BRASIL RP] Gamemode carregado!");
+    print("[SHARK RP] Gamemode carregado!");
 
     return 1;
 }
@@ -33,8 +35,8 @@ public OnPlayerConnect(playerid)
 {
     SendClientMessage(
         playerid,
-        0x32CD32FF,
-        "Bem-vindo ao Brasil Roleplay!"
+        0x32CDFFFF,
+        "Bem-vindo ao SHARK RP!"
     );
 
     return 1;
