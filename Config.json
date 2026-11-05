@@ -1,0 +1,14 @@
+
+{
+  "name": "SHARK RP | Android Roleplay",
+  "language": "Português",
+  "max_players": 50,
+  "network": {
+    "port": 7777
+  },
+  "pawn": {
+    "main_scripts": [
+      "sharkrp"
+    ]
+  }
+}
